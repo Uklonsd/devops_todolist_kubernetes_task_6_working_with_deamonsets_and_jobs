@@ -27,4 +27,4 @@ spec:
           command:
             - /bin/sh
             - -c
-            - "while true; do curl -s http://todoapp/api/health; sleep 5; done"
+            - "while true; do curl -s http://todoapp-service.todoapp.svc.cluster.local; sleep 5; done"
